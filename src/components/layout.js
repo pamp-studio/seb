@@ -97,10 +97,8 @@ class Layout extends React.Component {
       >
         <header>
         {header}         
-        <Header />
         </header>
         <main>{childrenWithProps}</main>
-        
         <hr/>
         <Projects />
         {location.pathname === rootPath && <div><hr/><ShopListingAll updateShopBasket={this.updateShopBasket}/></div>}
@@ -110,8 +108,8 @@ class Layout extends React.Component {
 Your browser does not support the audio element.
 </audio> */}
         <footer style={{float:'right'}}>
-        {` `}
-        Ⓐ Eothen Stearn {new Date().getFullYear()}
+        <Header />
+        Ⓐ Sebastian Ymai {new Date().getFullYear()}
         </footer>
       </div>
       <ShopBasket items={this.state.shopBasket} updateShopBasket={this.updateShopBasket}/>
