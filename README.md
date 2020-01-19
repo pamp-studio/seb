@@ -15,9 +15,9 @@ Let us know your username to get access to the code/content *repository*.
 
 1.3 **Pull down the repository from github and install the npm packages.**
 
-```git clone https://...``` 
+```git clone https://github.com/itsticks/your-website.git``` 
 
-```cd ...```
+```cd your-website```
 
 ```npm install```
 
