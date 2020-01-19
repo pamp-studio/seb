@@ -99,7 +99,6 @@ class Layout extends React.Component {
         {header}         
         </header>
         <main>{childrenWithProps}</main>
-        <hr/>
         <Projects />
         {location.pathname === rootPath && <div><hr/><ShopListingAll updateShopBasket={this.updateShopBasket}/></div>}
 
@@ -107,7 +106,7 @@ class Layout extends React.Component {
  <source src="https://itsticks.github.io/tarantula/mixes/20190706/a7 dont quit me.mp3" type="audio/mpeg"/>
 Your browser does not support the audio element.
 </audio> */}
-        <footer style={{float:'right'}}>
+        <footer>
         <Header />
         Ⓐ Sebastian Ymai {new Date().getFullYear()}
         </footer>
