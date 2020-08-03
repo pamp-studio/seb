@@ -4,7 +4,7 @@ date: "2014-02-06T23:46:37.121Z"
 description: "Hand bound A4 black and white print outs. The audience were encouraged to peel a sheet.
 OBEN, Vienna."
 tags:
-    - exhibition
+    - art
 gallery:
     - emergencydeco_o.jpg
     - Untitled-1_o.jpg

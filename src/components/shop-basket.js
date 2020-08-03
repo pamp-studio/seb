@@ -88,9 +88,9 @@ disabled={parseInt(x.item.stock)<=parseInt(x.quantity)}>+</button>
   )} 
 <li>Total: <strong>£{this.props.items.reduce((accum,y)=>accum+=((parseInt(y.item.price)/100)*parseInt(y.quantity)),0)}</strong></li>
   </ul>
-  <p><small>Price include free international shipping. Please email eothenstearn@gmail.com with any queries.</small></p>
+  <p><small>Price include free international shipping. Please email sebastian.y.r.varas@gmail.com with any queries.</small></p>
   <form method="post" action="https://www.paypal.com/cgi-bin/webscr">
-    <input name="business" type="hidden" value="rlouis.alexander@gmail.com"/>
+    <input name="business" type="hidden" value="sebastian.y.r.varas@gmail.com"/>
     <input name="cmd" type="hidden" value="_xclick"/>
     <input name="item_name" type="hidden" value={this.props.items.reduce((accum,x,i,arr)=>{
       return accum += `${x.quantity}x ${x.item.name} (£${parseInt(x.item.price)/100}) ~ `
@@ -99,7 +99,7 @@ disabled={parseInt(x.item.stock)<=parseInt(x.quantity)}>+</button>
       return accum += (parseInt(x.item.price)/100)*x.quantity
     },0)}/>
     <input name="currency_code" type="hidden" value="GBP"/>
-    <input name="return" type="hidden" value="https://eothenstearn.com"/>
+    <input name="return" type="hidden" value="https://sebastianymai.xyz"/>
     <input type="image" name="submit" src="https://www.paypalobjects.com/webstatic/en_US/i/btn/png/btn_buynow_107x26.png" alt="Buy Now"/>
     <img alt="" border="0" width="1" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"/>
     </form>

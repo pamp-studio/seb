@@ -26,7 +26,7 @@ Let us know your username to get access to the code/content *repository*.
 
 ```git pull```
 
-2.2 Get the website running on your computer at the url http://127.0.0.0:8000.
+2.2 Get the website running on your computer at the url http://127.0.0.1:8000.
 
 ```npm run develop```
 
