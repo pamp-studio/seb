@@ -17,7 +17,7 @@ Let us know your username to get access to the code/content *repository*.
 
 ```git clone https://github.com/itsticks/your-website.git``` 
 
-```cd your-website```
+```cd seb```
 
 ```npm install```
 
