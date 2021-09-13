@@ -44,7 +44,7 @@ class BlogPostTemplate extends React.Component {
           </header>
           <section dangerouslySetInnerHTML={{ __html: post.html }} />
         </article>
-     <ShopListing items={post.frontmatter.shopItems} updateShopBasket={this.props.updateShopBasket}/>
+     {/* <ShopListing items={post.frontmatter.shopItems} updateShopBasket={this.props.updateShopBasket}/> */}
      <Gallery images={post.frontmatter.gallery}/>
 
         {/* <nav>

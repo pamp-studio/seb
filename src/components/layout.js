@@ -100,7 +100,9 @@ class Layout extends React.Component {
         </header>
         <main>{childrenWithProps}</main>
         <Projects />
-        {location.pathname === rootPath && <div><hr/><ShopListingAll updateShopBasket={this.updateShopBasket}/></div>}
+        {location.pathname === rootPath && <div><hr/></div>}
+
+          {/* <ShopListingAll updateShopBasket={this.updateShopBasket}/> */}
 
         {/* <audio style={{display:'block'}} controls src="https://itsticks.github.io/tarantula/mixes/20190706/a7 dont quit me.mp3">
  <source src="https://itsticks.github.io/tarantula/mixes/20190706/a7 dont quit me.mp3" type="audio/mpeg"/>

@@ -5,8 +5,14 @@ description: "COMIDILLO TAPES TEE'S"
 tags:
   - music
   - comidillo
-# shopItems:
-#     - {"id":"COMTEES1","stock":10,"name":"COMIDILLO TAPES patch","price":1000,"image":"0015570304_10.jpg"}
+shopItems:
+  - {
+      "id": "COMTEES1",
+      "stock": 10,
+      "name": "COMIDILLO TAPES patch",
+      "price": 1000,
+      "image": "0015570304_10.jpg",
+    }
 ---
 
 Screen printed at home, yellow or white on black black cotton shirts. Little drawing by yours trully, help me make more tapes and look cute af.\*
