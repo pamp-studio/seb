@@ -4,7 +4,7 @@ module.exports = {
     title: `Sebastian Ymai`,
     author: `Sebastian Ymai`,
     description: `Spent the past 7 years in and out of the Glasgow School of Art until summer 2016`,
-    siteUrl: `https://seb.pampthehorn.com`,
+    siteUrl: `https://sebastianymai.xyz/`,
     social: {
       instagram: `guechulare`
     },
